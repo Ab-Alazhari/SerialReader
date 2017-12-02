@@ -21,13 +21,9 @@ def kent():
 
     root.config(menu=menu)
     subMenu = Menu(menu)
-    #subMenut = Menu(menu)
 
-    #menu.add_cascade(label="ملف", menu=subMenut)
-    #subMenut.add_command(label='تخزين')
-    #subMenut.add_command(label="ايقاف التخزين")
 
-    menu.add_cascade(label="منفذ", menu=subMenu)
+    menu.add_cascade(label="port", menu=subMenu)
 
     for index in portarray:
         subMenu.add_command(label=index, command=lambda: startprint(index))
