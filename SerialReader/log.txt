@@ -1,0 +1,11 @@
+Serial Print from port :  COM3
+DateTime Sat Dec  2 00:02:16 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:17 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:18 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:19 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:20 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:21 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:22 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:23 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:24 2017:		Voltage : 220;		  Frequency : 50
+DateTime Sat Dec  2 00:02:25 2017:		Voltage : 220;		  Frequency : 50
