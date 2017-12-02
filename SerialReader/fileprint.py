@@ -3,15 +3,10 @@ import time
 import threading
 
 
-# com_port = ''
-
-
 def print_func( value ):
 
     val = value
     ser = serial.Serial(value, 9600, timeout=0)
-
-    ##init_serial = ser.readline()
 
     print_com = 'Serial Print from port :  {0}\n'.format(val)
 
@@ -41,14 +36,6 @@ def print_func( value ):
             time.sleep(1)
     return
 
-'''
-def printfunc(port):
-    print_func(port)'''
-
-
 def startp(port):
      threadw = threading.Thread(target=print_func, args=(port,))
      threadw.start()
-     #time.sleep(18700)
-
-     #print_func('COM3')
